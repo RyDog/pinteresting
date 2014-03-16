@@ -1,7 +1,19 @@
-$body-bg:	#16a085;
-$navbar-default-bg:	#e67e22;
-$navbar-default-link-color:	white;
-$brand-primary: #2980b9;
-$jumbotron-bg: white;
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+$body-bg:											#16a085;
+$font-family-sans-serif:			'Inconsolata', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:								45px;
+$navbar-default-bg:						#e67e22;
+$navbar-default-brand-color:		white;
+$brand-primary: 							#2980b9;
+$jumbotron-bg: 								white;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
