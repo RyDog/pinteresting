@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'pry-rails'
+gem "devise", "~> 3.2.3"
 
 group :development, :test do
 gem 'sqlite3'
