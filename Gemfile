@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 1.2'
 gem "devise", "~> 3.2.3"
 gem 'rb-readline', "~> 0.4.2"
 gem 'paperclip', "~> 3.5.4"
+gem "aws-sdk", "~> 1.36.2"
 
 
 group :development, :test do
